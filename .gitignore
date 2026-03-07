@@ -1,0 +1,40 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Environment variables (NEVER commit secrets)
+.env
+
+# Database files
+data.db
+*.db
+
+# Log files
+*.log
+
+# Large binary / test files
+test_dummy.pdf
+*.tar.gz
+
+# IDE / tool directories
+.gemini/
+.agents/
+
+# Aurora cache
+.aurora_cache/
+
+# Output files (regenerated at runtime)
+master.csv
+master.json
+output.csv
+output.json
+schema.json
+
+# Lock files
+uv.lock

@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.git/
+.gitignore
+.env
+data.db
+*.db
+tests/
+.agents/
+.gemini/
+*.webp
+*.tar.gz
+node_modules/
